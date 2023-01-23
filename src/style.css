@@ -1,6 +1,6 @@
 body {
     color: white;
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(32, 32, 32);
 }
 
 #content {
@@ -11,32 +11,46 @@ body {
 
 .heading {
     font-size: 36px;
+    margin: 0px;
+    padding: 15px;
 }
 
-.tabs {
-    display: flex;
-    justify-content: center;
+.heading, .tabs {
+    width: 100vw;
+    background-color: rgb(22, 22, 22);
+    text-align: center;
 }
 
 .buttons {
-    margin: 0px 8px 20px 8px;
+    margin: 0px 20px 20px 20px;
     background-color: transparent;
     color: white;
     font-size: 20px;
     border: none;
-    padding: 10px;
+    text-align: center;
+    line-height: 40px;
 }
 
 .buttons:hover {
-    font-size: 25px;
+    transform: scale(1.2);
     transition: 0.3s;
 }
 
 .mainImg {
     height: 400px;
+    margin: 50px;
 }
 
 .slogan {
     font-size: 24px;
-    margin: 30px;
+    text-align: center;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 15px;
 }
